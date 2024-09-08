@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+}
+
+body {
+    background-color: #a4a7af;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #737a8d;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 16px;
+}
+
+.nav-left .logo {
+    width: 40px;
+    margin: 5px 8px;
+    cursor: pointer;
+}
+
+.nav-left .logo img {
+    width: 100%;
+    border-radius: 10px;
+    /* box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3); */
+    /* border-radius: 50%; */
+}
+
+.nav-left .search-box {
+    width: 240px;
+    height: 40px;
+    background: #5d616a;
+    border-radius: 20px;
+    margin-left: 5px;
+    padding: 0 6px;
+    position: relative;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.nav-left .search-box i {
+    color: white;
+    margin-left: 20px;
+    line-height: 36px;
+}
+
+.nav-left .search-box .search-text-area {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    padding: 4%;
+    font-size: 14px;
+    color: white;
+}
+
+
+.nav-center {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.nav-center i {
+    width: 45px;
+    background: #555555;
+    border-radius: 10px;
+    margin-left: 12px;
+    font-size: 22px;
+    padding: 13px 40px;
+    color: rgb(170, 163, 163);
+
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-right i {
+    width: 40px;
+    height: 40px;
+    background: #555555;
+    border-radius: 50%;
+    margin-right: 20px;
+    font-size: 22px;
+    color: rgba(170, 163, 163);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-right img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    line-height: 45px;
+    margin-right: 15px;
+    height: 40px;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 27px;
+    color: white;
+}
